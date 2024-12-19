@@ -42,6 +42,10 @@ body {
 	width: 20px;
 }
 
+figure{
+	margin: 0;
+}
+
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -84,6 +88,7 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 1rem;
 }
 #about-me p {
 	width: 80%;
@@ -94,6 +99,7 @@ body {
 	min-height: 100vh;
 } */
 .title{
+	font-size: 1.75rem;
 	text-align: center;
 	padding-block: 2em;
 }
@@ -144,10 +150,11 @@ body {
 	padding-block: 3em;
 }
 .quote__text {
-	font-family: Spectral;
+	font-family: 'Spectral';
 	font-style: italic;
 	font-weight: 300;
-
+	font-size: 2.5rem;
+	line-height: 1.2;
 }
 .quote__author {
 	font-family: Spectral;
@@ -213,7 +220,9 @@ body {
 }
 .form-container {
 	flex : 2;
-
+}
+.form-container h2 {
+	font-size: 1.75rem;
 }
 form {
 	display: flex;
