@@ -13,6 +13,7 @@
 	<meta property="og:title" content="Nina Carducci - Photographe portraits & événementiel " />
 	<meta property="og:description" content="Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer" />
 	<meta property="og:image" content="./assets/images/nina.png" />
+	<link rel="preload" as="image" href="./assets/images/slider/slider-1440px/ryoji-iwata-wUZjnOv7t0g-unsplash-1440.webp">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.min.css">
 	<link rel="dns-prefetch" href="https://fonts.googleapis.com">
@@ -70,7 +71,7 @@
 					
 					src="./assets/images/slider/slider-1440px/ryoji-iwata-wUZjnOv7t0g-unsplash-1440.webp" 
 					class="d-block w-100" alt="Salaryman marchant sur un passage piéton" 
-					itemprop="contentUrl">
+					itemprop="contentUrl" fetchpriority="high" decoding="async">
 				</figure>
 				<figure class="carousel-item">
 					<img 
@@ -86,7 +87,7 @@
 					
 					src="./assets/images/slider/slider-1440px/nicholas-green-nPz8akkUmDI-unsplash-1440.webp" 
 					class="d-block w-100" alt="Deux festivaliers enthousiastes dans une fosse de concert." 
-					itemprop="contentUrl">
+					itemprop="contentUrl" loading="lazy">
 				</figure>
 				<figure class="carousel-item">
 					<img
@@ -102,7 +103,7 @@
 					
 					src="./assets/images/slider/slider-1440px/edward-cisneros-3_h6-1NPDGw-unsplash-1440.webp"
 					class="d-block w-100" alt="Deux mariés s'embrassent dans une position inclinée au milieu de leurs invités." 
-					itemprop="contentUrl">
+					itemprop="contentUrl" loading="lazy">
 				</figure>
 			</div>
 			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
