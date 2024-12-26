@@ -46,6 +46,16 @@ figure {
   margin: 0;
 }
 
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: black;
+  width: 3rem;
+  height: 3rem;
+  background-size: 50% 50%;
+  background-color: black;
+  border-radius: 50px;
+}
+
 #about {
   display: flex;
   background-color: #f6d2b8;
