@@ -206,6 +206,11 @@ figure {
   z-index: 1;
 }
 
+.service__price p {
+  font-size: calc(1.275rem + 0.3vw);
+  margin-bottom: 0.5rem;
+}
+
 #contact {
   margin: auto;
   background-color: #d8d3a8;
@@ -280,6 +285,9 @@ input[type="submit"] {
   }
   .quote__text {
     font-size: calc(1.375rem + 1.5vw);
+  }
+  .service__price p {
+    font-size: 1.5rem;
   }
   .form-container h2 {
     font-size: calc(1.3rem + 0.6vw);
