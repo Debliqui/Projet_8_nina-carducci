@@ -104,9 +104,6 @@ figure {
   font-size: 14px;
 }
 
-/* #gallery {
-	min-height: 100vh;
-} */
 .title {
   font-size: 1.75rem;
   text-align: center;
@@ -217,6 +214,7 @@ figure {
   position: relative;
   padding-inline: 100px;
   padding-block: 100px;
+  padding-top: 0;
 }
 
 #contact .container {
@@ -235,7 +233,7 @@ figure {
 .form-container {
   flex: 2;
 }
-.form-container h2 {
+.form-container h3 {
   font-size: 1.75rem;
 }
 form {
@@ -267,6 +265,32 @@ input[type="submit"] {
   padding: 0.5em 1em;
 }
 
+.contact-info ul {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.contact-info li {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #000;
+  z-index: 1;
+}
+
+.contact-info a img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 24px;
+}
+
 @media all and (max-width: 1180px) {
   .picture {
     flex: 2;
@@ -289,7 +313,7 @@ input[type="submit"] {
   .service__price p {
     font-size: 1.5rem;
   }
-  .form-container h2 {
+  .form-container h3 {
     font-size: calc(1.3rem + 0.6vw);
   }
 }
@@ -349,6 +373,11 @@ input[type="submit"] {
     bottom: 0;
     right: 0;
     z-index: -1;
+  }
+  .contact-info ul {
+    flex-direction: column;
+    gap: 2em;
+    padding-left: 0;
   }
 }
 
