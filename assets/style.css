@@ -408,6 +408,7 @@ input[type="submit"] {
   .top-header {
     flex-direction: column;
     padding-inline: 0;
+    position: static;
   }
   .top-header .nav,
   .top-header .nav ul {
